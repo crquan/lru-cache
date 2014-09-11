@@ -1,0 +1,13 @@
+
+An LRU Cache implementation with methods:
+
+BOUND    :  Set the upper bound. If the cache size is currently greater than this number, then extra entries must be removed following the LRU policy
+
+SET   :  Set the value of this key
+
+GET   :  Get the value of this key and prints to stdout.
+
+PEEK   :  Gets the value of the key but does not mark it as being used. Prints the value to standard out.
+
+DUMP  :  Prints the current state of the cache as a list of key/value pairs in alphabetical order by key.
+
